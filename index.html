@@ -9,11 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Mono">
     <link rel="stylesheet" href="./CSS/page-top-styles.css">
     <link rel="stylesheet" href="./CSS/index-styles.css">
-    <script>
-        function resizeIframe(obj) {
-            obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-        }
-    </script>
+    <script defer src="./callMeModal.js"></script>
 </head>
 
 <body> <img id="BI" src="./images/KindaSickSingleArtsmall.jpg" />
@@ -54,8 +50,40 @@
             seamless><a href="https://luwum.bandcamp.com/album/ur-halo">Ur Halo by J.M. Fodder</a> </iframe>
     </div>
     <div id="aboutBottom">
-        <h2>Jessewilliammiller [at] gmail.com</h2>
-        <h2>254-715-8648</h2>
+        <!-- <h2>Jessewilliammiller [at] gmail.com</h2>
+        <h2>254-715-8648</h2> -->
+        <div id="social-div">
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/JMFODDER">
+                <img class="social" src="./images/social-icons/twitter.png">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/jmfodder">
+                <img class="social" src="./images/social-icons/instagram.png">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://tiktok.com/@jmfodder">
+                <img class="social" src="./images/social-icons/tiktok.png">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="mailto: jesswilliammiller@gmail.com">
+                <img class="social" src="./images/social-icons/email.png">
+            </a>
+
+            <img id="myBtn" class="social" src="./images/social-icons/phone.png">
+        </div>
+
+        <div id="callMeModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>
+                    Gimme a ring @
+                    <!-- <a href="tel:2547158648"> -->
+                        254-715-8648
+                    <!-- </a> -->
+                </p>
+            </div>
+
+        </div>
+
         <!-- <p>I have chosen to have a music career without the use of social media. I know that seems crazy, but what’s really crazy is how insane I feel when I use that garbage! We can still have community and connection with out social media. Drop me a line :)</p> -->
     </div>
 </body>
