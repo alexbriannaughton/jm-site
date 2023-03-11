@@ -37,6 +37,11 @@ hr {
     border-radius: 20px;
 }
 
+/* .oneShow:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+} */
+
 .oneShow p {
     margin: 0 7px;
 }
