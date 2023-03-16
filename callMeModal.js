@@ -18,7 +18,13 @@ span.onclick = function () {
 }
 
 // When the user clicks anywhere outside of the modal, close it
-document.addEventListener("onmousedown", function (event) {
+window.addEventListener("click", function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+});
+
+document.addEventListener("touchstart", function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
